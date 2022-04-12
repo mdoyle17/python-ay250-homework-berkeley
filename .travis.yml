@@ -4,8 +4,9 @@ python:
   - "3.5"
   - "3.6"      # current default Python on Travis CI
   - "3.7"
-# cd into correct folder,
+# cd into folder
 before_install: cd hw_7
+
 install: pip install -r requirements.txt
 #run these tests on flask_web
 script:
