@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>Query the database with the form below. Column names are "ref_tag", "author_list", "journal", "volume" (integer), "pages", "year" (integer), "title", and "collection". Make sure to explicitly put strings in quotes. </p>
+
+<div class="search">
+<form action="/search" method='POST'>
+    <input type=text name="search" value="{{ request.form.search}}"></br>
+    <div class="actions"><input type=submit value="Search"></div>
+</form>
+</div>
+{% endblock %}

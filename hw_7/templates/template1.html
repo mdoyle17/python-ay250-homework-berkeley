@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  <body>   
+    <form method='POST' enctype='multipart/form-data'>
+      <label>Name</label>
+      <input name="name" type="text" required>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+
+    </form>
+ </body>
+
+{% endblock %}

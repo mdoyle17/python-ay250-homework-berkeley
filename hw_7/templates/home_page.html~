@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>Do you want to upload, or run a query?</p>
+{% endblock %}
