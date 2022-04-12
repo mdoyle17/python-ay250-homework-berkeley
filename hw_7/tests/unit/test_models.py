@@ -1,4 +1,4 @@
-from flask_webb.models import bibs
+from flask_web.models import bibs
 
 #Want to check bibliography info is stored correctly! 
 def test_bib():
