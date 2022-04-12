@@ -7,6 +7,6 @@ python:
 # cd into correct folder,
 before_install: cd hw_7
 
-#run these tests
+#run these tests on flask_web
 script:
   - python -m pytest 
