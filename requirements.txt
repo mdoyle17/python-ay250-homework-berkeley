@@ -4,3 +4,4 @@ flask_wtf==0.9.4
 Jinja2==2.7.2
 SQLAlchemy==0.9.1
 wtforms==1.0.5
+WTForms==2.3.3
