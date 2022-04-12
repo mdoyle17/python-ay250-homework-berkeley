@@ -4,7 +4,7 @@ python:
   - "3.5"
   - "3.6"      # current default Python on Travis CI
   - "3.7"
-# command to run tests
+# cd into correct folder
 before_install: cd hw_7
 script:
-  - py.test tests
+  - pytest tests
