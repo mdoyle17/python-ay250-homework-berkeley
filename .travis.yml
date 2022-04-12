@@ -7,4 +7,4 @@ python:
 # command to run tests
 before_install: cd hw_7
 script:
-  - pytest
+  - py.test tests
