@@ -9,4 +9,4 @@ before_install: cd hw_7
 
 #run these tests
 script:
-  - python -m pytest tests
+  - python -m pytest 
