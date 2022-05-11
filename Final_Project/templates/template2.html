@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<html>
+<body>
+ <b>  Here are the predictions: </b>
+
+{% for item in data %}
+    <p> {{ item }} </p>
+{% endfor %}
+
+</body>
+</html>
+{% endblock %}

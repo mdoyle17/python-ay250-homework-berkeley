@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<html>
+<body>
+   <img src="/Users/yyk_lab/Downloads/ay250-hw/python-ay250-homework/Final_Project/uploads/temp.png" alt="User Image" style="width:10%">
+ <b> Here are the predictions: </b>
+
+{% for item in data %}
+    <p> {{ item }} </p>
+{% endfor %}
+
+</body>
+</html>
+{% endblock %}
